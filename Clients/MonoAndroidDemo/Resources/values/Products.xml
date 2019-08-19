@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="product_prompt">Choose type of product</string>
+  <string-array name="product_array">
+    <item>Battery</item>
+    <item>Charger</item>
+    <item>Trimmer</item>
+  </string-array>
+</resources>

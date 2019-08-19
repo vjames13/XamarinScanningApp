@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <TextView
+            android:text="Only using fields REQUIRED for ticket upload for simplicity."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDetails"
+            android:layout_margin="10dp" />
+         <TextView
+            android:text="Choose type of warranty:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textWarranty"
+            android:layout_margin="10dp" />
+    <Spinner
+            android:id="@+id/ddTypeOfWarranty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    <TextView
+            android:text="Choose type of Product:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textProduct"
+            android:layout_margin="10dp" />
+    <Spinner
+            android:id="@+id/ddTypeofProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    <TextView
+            android:text="Choose Area of Fault:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textFault"
+            android:layout_margin="10dp" />
+    <Spinner
+            android:id="@+id/ddAreaOfFault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+    <Button
+            android:text="Upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUpload" />
+     <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textUploadStatus"
+            android:layout_margin="10dp" />
+
+
+</LinearLayout>

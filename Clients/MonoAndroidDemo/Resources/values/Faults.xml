@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="area_prompt">Choose type of warranty request</string>
+  <string-array name="fault_array">
+    <item>Motor</item>
+    <item>Transmission</item>
+  </string-array>
+</resources>

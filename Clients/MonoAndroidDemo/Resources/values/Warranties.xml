@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="warranty_prompt">Choose type of warranty request</string>
+  <string-array name="warranty_array">
+    <item>Unit is not working</item>
+    <item>Something is missing in the box at delivery (only new)</item>
+  </string-array>
+</resources>
